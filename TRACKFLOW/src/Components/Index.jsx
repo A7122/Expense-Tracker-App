@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { useTransactions } from './Context/TransactionContext'
+import { useTransactions } from './TransactionContext.jsx'
 function Index() {
     const { transactions, addTransaction, deleteTransaction } = useTransactions();
     const [text, setText] = useState('');
